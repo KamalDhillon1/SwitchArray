@@ -10,7 +10,7 @@ public class SwitchPractice {
 		// Button 1-Black tea
 		// Button 2-Orange pekoe
 		// Button 3-hot chocolate
-		int button = 2;
+		int button = 4;
 		switch (button) {
 		case 1:
 			// Button1
@@ -23,7 +23,9 @@ public class SwitchPractice {
 		case 3:
 			// Button3
 			System.out.println("Pour hot chocolate");
-		}
+			break;
+		default:
+			System.out.println("Not Valid Selection");}
 				}
 
 }
